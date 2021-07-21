@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header class="header">
+        Weather Dashboard
+    </header>
+
+<div class="row">
+  <div id="column1">
+    <h2 id="h2">Search for a City:</h2>
+    <input id="input-container" type="text" placeholder="Search for a City" name="search">
+    <form id="search-container" action="/action_page.php">
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+    <div id="split">
+        <h2>___________________________</h2>
+    </div>
+  </div>
+
+  <div id="column2">
+  </div>
+</div>
+
+<div>
+    <h3 id="h3">5-Day Forecast:</h3>
+</div>
+
+<div class="next-days">
+    <div id="day1"></div>
+    <div id="day2"></div>
+    <div id="day3"></div>
+    <div id="day4"></div>
+    <div id="day5"></div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+.header { /*main heading */
+    background-image: linear-gradient(to right, #4169E1, #191970);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#h2 { /*changes "Search for a City:" subherading */
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+#input-container { 
+    padding-left: 10px;
+}
+input[type="text" i] { /*changes the text inside the input box */
+    font-size: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    margin-left: 10px;
+    
+}
+
+#search-container {
+    display: block;
+    padding: 10px;
+    margin-right: 1200px;
+}
+
+button { /*changes the appearance of the button */
+    background-color: #6495ED;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#column1 {
+    float: left;  
+    width: 25%;
+    padding: 10px;
+    
+  }
+
+  #column2 {
+    float: right;
+    width: 70%;
+    height: 250px;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border: 2px solid #DCDCDC;
+
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #split {
+      padding-left: 15px;
+  }
+
+  #h3 {
+      float: right;
+      width: 70%;
+      font-size: 25px;
+      width: 1115px;
+      margin-top: 15px;
+  }
+
+  .next-days {
+      display: inline-flex;
+      float: right;
+      width: 1165px;
+      height: 200px;
+      margin-bottom: 100px;
+  }
+
+  #day1, #day2, #day3, #day4, #day5 {
+    border: 2px solid #DCDCDC;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+    height: 175px;
+    
+  }
