@@ -1073,7 +1073,7 @@ label form [type='radio'] {
   width: 92%;
 }
 
-/* FLEX CONTENT */
+/* flexing */
 .flex-row {
   display: flex;
   flex-direction: row;
